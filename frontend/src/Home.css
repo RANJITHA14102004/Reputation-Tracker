@@ -1,0 +1,65 @@
+.home-container {
+  text-align: center;
+  padding: 50px;
+  background: linear-gradient(135deg, #dff1ff, #ffffff);
+  min-height: 100vh;
+}
+
+.title {
+  font-size: 42px;
+  font-weight: bold;
+  color: #004e92;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 18px;
+  padding: 30px;
+  text-decoration: none;
+  color: #222;
+  font-size: 20px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 12px 26px rgba(0, 0, 0, 0.12);
+}
+
+/* Platform Colors */
+.twitter {
+  border-top: 6px solid #1DA1F2;
+}
+
+.facebook {
+  border-top: 6px solid #1877F2;
+}
+
+.instagram {
+  border-top: 6px solid #E4405F;
+}
+
+.reddit {
+  border-top: 6px solid #FF4500;
+}
