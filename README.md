@@ -4,8 +4,8 @@ A full-stack MERN-based application that tracks brand mentions across multiple p
 The system also includes an Admin Login (Admin / Admin@123) and a clean React Dashboard UI.<br>
 
 **🚀 Features**
-🔍 Brand Monitoring
-Fetches mentions from multiple platforms<br>
+<br>🔍 Brand Monitoring
+<br>Fetches mentions from multiple platforms<br>
 
 ✔️ Reddit<br>
 ✔️ News Articles<br>
@@ -41,30 +41,30 @@ Timestamp<br>
 🔧 1. Clone the Repository and follow the steps<br>
 
 **🖥 Backend Setup**
-cd backend<br>
+<br>cd backend<br>
 npm install<br>
 npm start<br>
 
 **Backend runs at:**
-👉 http://localhost:5000<br>
+<br>👉 http://localhost:5000<br>
 
 **💻 Frontend Setup**
-cd frontend<br>
+<br>cd frontend<br>
 npm install<br>
 npm start<br>
 
 **Frontend runs at:**
-👉 http://localhost:3000<br>
+<br>👉 http://localhost:3000<br>
 
 **🔌 Environment Variables**
 
-Create a .env file in backend/<br>
+<br>Create a .env file in backend/<br>
 PORT=5000<br>
 
 (Add API keys for Twitter/Youtube later if needed)<br>
 
 **🛠️ Technologies Used**
-*Frontend*<br>
+<br>*Frontend*<br>
 
 React.js<br>
 React Router<br>
